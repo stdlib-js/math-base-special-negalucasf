@@ -40,6 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/constants-float32-max-safe-nth-lucas": "github:stdlib-js/constants-float32-max-safe-nth-lucas#main",
     "@stdlib/math-base-assert-is-integerf": "github:stdlib-js/math-base-assert-is-integerf#main",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
     "@stdlib/math-base-napi-unary": "^0.2.3",
