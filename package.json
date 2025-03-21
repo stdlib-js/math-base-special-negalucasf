@@ -49,6 +49,7 @@
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/constants-float32-phi": "^0.0.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
     "@stdlib/math-base-special-lucas": "^0.2.3",
