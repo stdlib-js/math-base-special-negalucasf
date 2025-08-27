@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2025-08-27)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`81f904d`](https://github.com/stdlib-js/stdlib/commit/81f904da25808197e2ae83ebf9c8b26860855e7c) - **bench:** fix failing C benchmarks by using `round` and `roundf` [(#7980)](https://github.com/stdlib-js/stdlib/pull/7980) _(by Gunj Joshi)_
 -   [`8c5f190`](https://github.com/stdlib-js/stdlib/commit/8c5f190a58f09d525dcf7717c91225cbc496c907) - **refactor:** modify C implementation to accept `float` value instead of `int32` in `math/base/special/negalucasf` [(#7956)](https://github.com/stdlib-js/stdlib/pull/7956) _(by Gunj Joshi, Athan Reines)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`811e510`](https://github.com/stdlib-js/stdlib/commit/811e5106adc9ab855d7992985e1719fc25642125) - **bench:** update random value generation [(#6232)](https://github.com/stdlib-js/stdlib/pull/6232) _(by Harsh, Athan Reines)_
