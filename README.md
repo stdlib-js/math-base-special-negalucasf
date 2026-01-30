@@ -95,6 +95,11 @@ with seed values `L_0 = 2` and `L_{-1} = -1`.
 ## Usage
 
 ```javascript
+import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-negalucasf/tags). For example,
+
+```javascript
 import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.0-deno/mod.js';
 ```
 
@@ -160,7 +165,7 @@ var v = negalucasf( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.0-deno/mod.js';
+import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@deno/mod.js';
 
 var v;
 var i;
