@@ -97,6 +97,11 @@ with seed values `L_0 = 2` and `L_{-1} = -1`.
 To use in Observable,
 
 ```javascript
+negalucasf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-negalucasf/tags). For example,
+
+```javascript
 negalucasf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.0-umd/browser.js' )
 ```
 
@@ -109,7 +114,7 @@ var negalucasf = require( 'path/to/vendor/umd/math-base-special-negalucasf/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -187,7 +192,7 @@ var v = negalucasf( NaN );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
