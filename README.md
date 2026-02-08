@@ -95,7 +95,7 @@ with seed values `L_0 = 2` and `L_{-1} = -1`.
 ## Usage
 
 ```javascript
-import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@deno/mod.js';
+import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.1-deno/mod.js';
 ```
 
 #### negalucasf( n )
@@ -160,7 +160,7 @@ var v = negalucasf( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@deno/mod.js';
+import negalucasf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negalucasf@v0.1.1-deno/mod.js';
 
 var v;
 var i;
